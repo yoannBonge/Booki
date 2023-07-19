@@ -7,6 +7,7 @@
     --main-color: #0065FC;
     --main-bg-color: #F2F2F2;
     --filter-bg-color: #DEEBFF;
+    font-size: 16px;
 }
 
 .fa-solid {
@@ -23,36 +24,32 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 30px;
+    margin-bottom: 2rem;
 }
 
 main {
     width: 100%;
     max-width: 1440px;
-    padding: 0 50px;
+    padding: 0 3rem;
     box-sizing: border-box;
 }
 
 h1 {
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+    font-size: 1.375rem;
     display: inline;
 }
 
 .section-title {
     margin: 0;
-    font-size: 22px;
-    display: flex;
-    justify-content: space-between;
+    font-size: 1.375rem;
 }
 
 .card {
     background-color: white;
     border-radius: 20px;
-    padding: 5px;
+    padding: 0.313rem;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+    cursor: pointer;
 }
 
 .card img {
@@ -60,7 +57,7 @@ h1 {
 }
 
 .card-title {
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .euro {
@@ -71,33 +68,30 @@ h1 {
     color: var(--main-bg-color);
 }
 
-
-
 .logo-booki {
-    padding: 30px;
+    padding: 1.875rem;
 }
 
-.booki {
-    width: 61.09px;
-    height: 19px;
+.logo-booki-header {
+    width: 100%;
+    height: 1.188rem;  
 }
 
 .menu {
-    padding: 0px 25px;
-    font-weight: 400;
+    padding: 0 2.563rem;
 }
 
-.navbar {
+.menu ul {
     display: flex;
     flex-direction: row;
     list-style-type: none;
 }
 
-.category {
-    margin-left: 68px;
+.menu li {
+    margin-left: 4.25rem;
 }
 
-.category:hover {
+.menu li:hover {
     color: var(--main-color);
     border-top: solid 2px var(--main-color);
     cursor: pointer;
@@ -107,18 +101,15 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 35px;
-    align-self: stretch;
+    gap: 2.188rem;
 }
 
 .headline {
-    margin-bottom: -20px;
+    margin-bottom: -1.25rem;
 }
 
 .headline p {
-    font-size: 16px;
-    font-weight: 400;
-    margin-top: 8px;
+    margin-top: 0.5rem;
 }
 
 .searchbar {
@@ -129,8 +120,8 @@ h1 {
 .location-dot {
     background-color: var(--main-bg-color);
     display: flex;
-    width: 50px;
-    height: 49px;
+    width: 3.125rem;
+    height: 3.063rem;
     align-items: center;
     justify-content: center;
     border-radius: 15px 0px 0px 15px;
@@ -144,20 +135,11 @@ h1 {
 }
 
 
-
-.searchform {
-    display: flex;
-    border-collapse: collapse;
-}
-
 .searchfield {
     text-align: center;
-    width: 195px;
-    height: 49px;
-    font-size: 18px;
-    font-style: normal;
+    height: 3.063rem;
+    font-size: 1.125rem;
     font-weight: 700;
-    line-height: normal;
     border-color: var(--main-bg-color);
     border-style: solid;
     border-left-style: none;
@@ -170,51 +152,48 @@ h1 {
 }
 
 
-.searchbutton {
+.searchform button {
     color: white ;
     background-color: var(--main-color);
-    width: 130px;
-    height: 49px;
+    height: 3.063rem;
+    padding: 0 1rem;
     border-radius: 0px 15px 15px 0px;
     border: 1px solid var(--main-color);
     text-align: center;
-    font-size: 18px;
-    font-style: normal;
+    font-size: 1.125rem;
     font-weight: 700;
-    line-height: normal;
 }
 
-.searchbutton:hover {
+.searchform button:hover {
     cursor: pointer;
 }
 
 .filterbar {
     display: flex;
-    gap: 15px;
+    gap: 0.938rem;
 }
 
 .filterword {
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 700;
     display: flex;
     align-items: center;
 }
 
-.filtertype {
+.filterbar button {
     display: flex;
-    height: 50px;
-    padding: 4px 19px;
+    height: 3.125rem;
+    padding: 0.25rem 1.188rem;
     align-items: center;
-    gap: 10px;
-    font-size: 17px;
+    gap: 0.625rem;
+    font-size: 1.063rem;
     font-weight: 700;
     border-radius: 25px;
     border: 2px solid #D9D9D9;
-    background-color: white;
-    
+    background-color: white;  
 }
 
-.filtertype:hover {
+.filterbar button:hover {
     background-color: var(--filter-bg-color);
 }
 
@@ -225,8 +204,8 @@ h1 {
 }
 
 .infobar i {
-    width: 24px;
-    height: 24px;
+    width: 1.5rem;
+    height: 1.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -237,29 +216,25 @@ h1 {
 .result {
     display: flex;
     flex-direction: row;
-    margin-left: 10px;
+    margin-left: 0.625rem;
 }
 
 .hebergements-and-populaires {
     display: flex;
-    padding: 25px 0px;
-    margin: 25px 0px;
+    padding: 1.563rem 0;
+    margin: 1.563rem 0;
     align-items: flex-start;
-    gap: 35px;
+    gap: 2.188rem;
     align-self: stretch;
 }
 
 .hebergements-and-populaires section {
     background-color: var(--main-bg-color);
     border-radius: 20px;
-    padding: 30px;
+    padding: 1.875rem;
     box-sizing: border-box;
 }
 
-.hebergements-and-populaires a {
-    text-decoration: none;
-    color: black;
-}
                                                                     /* hébergements */
 
 .hebergements {
@@ -271,45 +246,52 @@ h1 {
 
 .hebergements-cards {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1.875rem;
+    margin-top: 2.063rem;
 }
 
 .hebergements-cards .card {
     display: flex;
-    flex-direction: column;
-    width: 90%;
-    margin: 20px;
+    flex-direction: row;
+    width: 29%;
+    flex-wrap: wrap;
 }
 
 .hebergements-cards img {
     width: 100%;
-    height: 130px;
+    height: 7.75rem;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 
 .hebergements-cards .card-content {
     width: 100%;
-    padding-left: 15px;
+    padding-left: 0.938rem;
     display: flex;
     flex-direction: column;
 }
 
 .hebergements-cards .card-title {
-    margin-top: 10px;
+    margin-top: 0.625rem;
+    margin-bottom: -0.625rem;
 }
 
 .hebergements-cards .card-subtitle {
-    margin-bottom: 4px;
+    margin-bottom: 0.25rem;
 }
 
 .hebergements-cards .card-rating {
-    margin-bottom: 5px;
+    margin-bottom: 0.313rem;
 }
 
 .more {
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 700;
+    margin-top: 1.5rem;
+    margin-bottom: -0.18rem;
 }
 
                                                                     /* populaires */
@@ -326,19 +308,19 @@ h1 {
 
 .populaires-cards .card {
     display: flex;
-    margin-top: 33px;
+    margin-top: 2.063rem;
 }
 
 .populaires-cards img {
     width: 33%;
-    height: 136px;
+    height: 8.5rem;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
 
 .populaires-cards .card-content {
     width: 67%;
-    padding-left: 15px;
+    padding-left: 0.938rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -346,8 +328,8 @@ h1 {
 }
 
 .populaires-cards .card-title {
-    margin-top: 10px;
-    margin-bottom: 4px;
+    margin-top: 0.625rem;
+    margin-bottom: 0.25rem;
 }
 
 .populaires-cards .card-subtitle {
@@ -355,5 +337,5 @@ h1 {
 }
 
 .populaires-cards .card-rating {
-    margin-bottom: 5px;
+    margin-bottom: 0.313rem;
 }                                                                   
