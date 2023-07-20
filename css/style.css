@@ -18,6 +18,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 0;
 }
 
 header {
@@ -78,16 +79,21 @@ h1 {
 
 .menu {
     padding: 0 2.563rem;
+    margin: 0;
 }
 
 .menu ul {
     display: flex;
     flex-direction: row;
     list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 .menu li {
     margin-left: 4.25rem;
+    margin-top: 0;
+    padding-top: 0.9rem;
 }
 
 .menu li:hover {
@@ -129,7 +135,6 @@ h1 {
 .location-dot i {
     color: black;
     display: flex;
-    align-content: center;
     flex-shrink: 0;
 }
 
@@ -145,11 +150,10 @@ h1 {
     border-right-style: none;
 }
 
-.searchfield::placeholder {
+#locsearch::placeholder {
     color: black;
     text-align: center;
 }
-
 
 .searchform button {
     color: white ;
@@ -290,8 +294,8 @@ h1 {
 .more {
     font-size: 1.125rem;
     font-weight: 700;
-    margin-top: 1.7rem;
-    margin-bottom: -0.05rem;
+    margin: 0;
+    padding: 0;
 }
 
                                                                     /* Populaires */
