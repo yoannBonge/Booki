@@ -1,4 +1,4 @@
-                                        /* General */
+/*______________________________________ General ______________________________________*/
 
 
 * {
@@ -15,7 +15,7 @@ html {
     font-size: 62.5%;
 }
 
-                                        /* Structural */
+/*______________________________________ Structural ______________________________________*/
 
 
 body {
@@ -32,19 +32,17 @@ header {
 }
 
 main {
-    width: 100%;
     padding: 0 4.8rem;
     box-sizing: border-box;
 }
 
 footer {
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-                                        /* Recurrent */
+/*______________________________________ Recurrent ______________________________________*/
 
 
 .section-title {
@@ -54,8 +52,8 @@ footer {
 
 .card {
     background-color: white;
-    border-radius: 20px;
-    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+    border-radius: 2.0rem;
+    filter: drop-shadow(0 0.3rem 1.5rem rgba(0, 0, 0, 0.1));
     cursor: pointer;
 }
 
@@ -72,20 +70,21 @@ footer {
 }
 
 .fa-solid {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     color: var(--main-color);
 }
 
 .neutral-star {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     color: var(--main-bg-color);
 }
 
-                                         /* Header Elements */
+/*______________________________________ Header Elements ______________________________________*/
 
 
 .logo-booki {
     padding: 3rem;
+    margin-left: 1.8rem;
 }
 
 .logo-booki-header {
@@ -119,7 +118,7 @@ footer {
 
 .menu li:hover {
     color: var(--main-color);
-    border-top: solid 2px var(--main-color);
+    border-top: solid 0.2rem var(--main-color);
     cursor: pointer;
 }
 
@@ -127,7 +126,7 @@ footer {
     color: var(--main-color);
 }
 
-                                        /* Infogroup */
+/*______________________________________ Infogroup ______________________________________*/
 
 
 .infogroup {
@@ -152,7 +151,6 @@ h1 {
 
 .searchbar {
     display: flex;
-    width: 100%;
 }
 
 .location-dot {
@@ -160,9 +158,9 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 48px;
-    height: 4.9rem;
-    border-radius: 15px 0px 0px 15px;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 1.5rem 0 0 1.5rem;
 }
 
 .location-dot i {
@@ -175,11 +173,13 @@ h1 {
 .searchfield {
     font-size: 1.8rem;
     font-weight: 700;text-align: center;
-    height: 4.9rem;
+    width: 92%;
+    height: 5rem;
     border-style: solid;
     border-color: var(--main-bg-color);
     border-left-style: none;
     border-right-style: none;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -193,14 +193,18 @@ h1 {
     color: white ;
     background-color: var(--main-color);
     position: absolute;
-    height: 4.9rem;
+    height: 5rem;
     padding: 0 1.6rem;
-    border: 1px solid var(--main-color);
-    border-radius: 0px 15px 15px 0px;
+    border: 0.1rem solid var(--main-color);
+    border-radius: 0 1.5rem 1.5rem 0;
 }
 
 .searchform button:hover {
     cursor: pointer;
+}
+
+.searchform i {
+    display: none;
 }
 
 .filterbar {
@@ -219,6 +223,11 @@ h1 {
     align-items: center;
 }
 
+.filter-buttons {
+    display: flex;
+    gap: 1.5rem;
+}
+
 .filterbar button {
     font-size: 1.7rem;
     font-weight: 700;
@@ -228,8 +237,8 @@ h1 {
     height: 5rem;
     padding: 0.4rem 1.9rem;
     gap: 1rem;
-    border: 2px solid #D9D9D9;
-    border-radius: 25px; 
+    border: 0.2rem solid #D9D9D9;
+    border-radius: 2.5rem; 
 }
 
 .filterbar button:hover {
@@ -248,7 +257,7 @@ h1 {
     justify-content: center;
     width: 2.4rem;
     height: 2.4rem;
-    border: 1px solid #D9D9D9;
+    border: 0.1rem solid #D9D9D9;
     border-radius: 50%;
 }
 
@@ -258,7 +267,7 @@ h1 {
     margin-left: 1rem;
 }
 
-                                        /* Hébergements et Populaires */
+/*______________________________________ Hébergements et Populaires ______________________________________*/
 
 .hebergements-and-populaires {
     display: flex;
@@ -270,16 +279,16 @@ h1 {
 }
 
 .hebergements-and-populaires section {
-    background-color: var(--main-bg-color);
     padding: 3rem;
-    border-radius: 20px;
+    border-radius: 2rem;
     box-sizing: border-box;
 }
 
-                                        /* Hébergements */
+/*______________________________________ Hébergements ______________________________________*/
 
 
 .hebergements {
+    background-color: var(--main-bg-color);
     width: 65%;
 }
 
@@ -300,8 +309,8 @@ h1 {
 .hebergements-cards img {
     width: 100%;
     height: 12.4rem;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
 }
 
 .hebergements-cards .card-content {
@@ -332,10 +341,11 @@ h1 {
     padding: 0;
 }
 
-                                        /* Populaires */
+/*______________________________________ Populaires ______________________________________*/
 
 
  .populaires {
+    background-color: var(--main-bg-color);
     width: 32%;
 }
 
@@ -343,6 +353,10 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.populaires-title i {
+    font-size: 2rem;
 }
 
 .populaires-cards .card {
@@ -353,9 +367,9 @@ h1 {
 
 .populaires-cards img {
     width: 33%;
-    height: 13.6rem;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    height: 13.8rem;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
 }
 
 .populaires-cards .card-content {
@@ -381,11 +395,10 @@ h1 {
     margin-bottom: 0.5rem;
 }
 
-                                        /* Activités */
+/*______________________________________ Activités ______________________________________*/
 
 
 .activites {
-    width: 95%;
     padding: 3rem;
     margin-bottom: 3rem;
 }
@@ -402,7 +415,7 @@ h1 {
 .activites-cards img {
     width: 100%;
     height: 38rem;
-    border-radius: 20px 20px 0 0;
+    border-radius: 2rem 2rem 0 0;
 }
 
 .activites-cards .card-title {
@@ -413,8 +426,13 @@ h1 {
     margin-bottom: 3rem;
 }
 
-                                        /* Footer Elements */
+/*______________________________________ Footer Elements ______________________________________*/
 
+
+.footer-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
 
 footer nav {
     background-color: var(--main-bg-color);
@@ -438,22 +456,21 @@ footer li {
     font-size: 1.6rem;
 }
 
-.footer-title {
-    font-size: 1.8rem;
-    font-weight: 700;
+/*______________________________________ Media Queries ______________________________________*/
+    
+
+/*________________________________ Tab */
+
+@media screen and (min-width: 768px) and (max-width: 1025px) {
+
+
+html {
+    font-size: 45%;
 }
 
-                                        /* Media Queries */
-
-
-                                    /* Tab */
-
-@media screen and (max-width: 1025px) {
-
-
 .hebergements-and-populaires {
-display: flex;
-flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .hebergements {
@@ -466,26 +483,207 @@ flex-direction: column;
 
 .populaires-cards {
     display: flex;
-    gap: 2rem;
     padding: 0.5rem;
+    gap: 2rem;
 }
 
 .populaires-cards .card {
-    display: flex;
     width: 33%;
     height: 13.6rem;
-    padding: 0.5rem;
     margin-top: 2rem;  
 }
 
 .activites-cards img {
-    height: 15rem;
+    height: 22rem;
 }
 
 }
 
-                                    /* Mobile */
+/*________________________________ Mobile */
 
-@media screen and (max-width: 767px) {
-                          
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;     
+}
+
+.logo-booki {
+    margin: 0;
+}
+
+main {
+    padding: 0;
+    margin: 0;
+}
+
+.menu {
+    width: 100%;
+    padding: 0;
+}
+
+.menu li {
+    width: 100%;
+    padding-bottom: 1.4rem;
+    margin: 0;
+}
+
+.menu a {
+    display: flex;
+    justify-content: center;
+}
+
+.menu li:hover {
+    border-top: none;
+    border-bottom: 0.2rem solid var(--main-color);
+}
+
+.infogroup {
+    margin: 0 2rem;
+}
+
+.searchfield {
+    width: 100%;
+}
+
+.searchform .search-button {
+    display: none;
+}
+
+.searchform button {
+    margin-left: -1.2rem;
+    border-radius: 1.5rem;
+    filter: drop-shadow(0px 3px 3px #0000007d);
+}
+
+.searchform i {
+    font-size: 1.6rem;
+    color: white;
+    display: flex;
+}
+
+.filter-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.filterbar button {
+    font-size: 1.4rem;
+    min-width: 1rem;
+}
+
+.filterbar {
+    flex-wrap: wrap;
+}
+
+.hebergements-and-populaires {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.hebergements-and-populaires section {
+    padding: 3rem 2rem 3rem 2rem;
+    border-radius: 0;
+    box-sizing: border-box;
+}
+
+.populaires {
+    background-color:#F2F2F2;
+    width: 100%;  
+}
+
+.populaires-cards .card {
+    display: flex;
+    padding: 0.5rem;
+    margin-top: 1.8rem;
+}
+
+.hebergements {
+    background-color: white;
+    width: 100%;
+    margin-top: -3rem;
+    margin-bottom: -1.5rem;
+}
+
+.hebergements h2 {
+    margin-bottom: -1.8rem;
+}
+
+.hebergements-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.hebergements-cards .card:nth-child(1) {
+    order: 1;
+}
+
+.hebergements-cards .card:nth-child(2) {
+    order: 6;
+}
+
+.hebergements-cards .card:nth-child(3) {
+    order: 3;
+}
+
+.hebergements-cards .card:nth-child(4) {
+    order: 4;
+}
+
+.hebergements-cards .card:nth-child(5) {
+    order: 2;
+}
+
+.hebergements-cards .card:nth-child(6) {
+    order: 5;
+}
+
+.hebergements-cards .more:nth-child(7) {
+    order: 7;
+}
+
+.activites {
+    box-sizing: border-box;
+}
+
+.activites-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.activites-cards .card {
+    width: auto;
+}
+
+.activites-cards img {
+    height: 14rem;
+}
+
+footer nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 4rem;
+    padding-bottom: 1rem;
+    gap: 2rem;
+}
+
+}
+
+/*________________________________ Mobile S */
+
+@media screen and (min-width: 320px) and (max-width: 350px) {
+
+.filterbar button {
+    font-size: 1.15rem;
+}
+
+.searchfield {
+    width: 92%;
+}
+
 }
