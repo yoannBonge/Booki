@@ -70,12 +70,12 @@ footer {
 }
 
 .fa-solid {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     color: var(--main-color);
 }
 
 .neutral-star {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     color: var(--main-bg-color);
 }
 
@@ -124,6 +124,10 @@ footer {
 
 .menu a:hover {
     color: var(--main-color);
+}
+
+.card-rating i {
+    margin-right: -.4rem;
 }
 
 /*______________________________________ Infogroup ______________________________________*/
@@ -316,21 +320,21 @@ h1 {
 .hebergements-cards .card-content {
     display: flex;
     flex-direction: column;
-    padding-left: 1.5rem;  
+    padding-left: 1rem; 
 }
 
 .hebergements-cards .card-title {
     margin-top: 1rem;
-    margin-bottom: -1rem;
+    margin-bottom: 0;
 }
 
 .hebergements-cards .card-subtitle {
-    font-size: 1.6rem;
-    padding-bottom: 0.6rem;
-    margin-bottom: 0.4rem;
+    font-size: 1.4rem;
+    margin-top: 0.6rem;
 }
 
 .hebergements-cards .card-rating {
+    margin-top: -1rem;
     margin-bottom: 0.5rem;
 }
 
@@ -461,7 +465,7 @@ footer li {
 
 /*________________________________ Tab */
 
-@media screen and (min-width: 768px) and (max-width: 1025px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
 
 
 html {
@@ -501,7 +505,7 @@ html {
 
 /*________________________________ Mobile */
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   
 
 header {
@@ -522,6 +526,7 @@ main {
 .menu {
     width: 100%;
     padding: 0;
+    margin-top: -2rem;
 }
 
 .menu li {
@@ -545,7 +550,7 @@ main {
 }
 
 .searchfield {
-    width: 100%;
+    width: 25rem;
 }
 
 .searchform .search-button {
@@ -678,12 +683,20 @@ footer nav {
 
 @media screen and (min-width: 320px) and (max-width: 350px) {
 
-.filterbar button {
-    font-size: 1.15rem;
+html {
+    font-size: 56.8%;
+}
+
+.menu {
+    margin-top: -2rem;
+}
+
+h1 {
+    font-size: 2.1rem;
 }
 
 .searchfield {
-    width: 92%;
+    width: 22.4rem;
 }
 
 }
