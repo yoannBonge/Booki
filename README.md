@@ -2,7 +2,7 @@
 # "Booki" website home page
 
 
-Integration in HTML and CSS of the home page of "Booki" website, a fictional travel agency.
+Integration in HTML and CSS of the home page of "Booki" website (in french), a fictional travel agency.  
 (This project was carried out as part of a web development training)
 ## Authors
 
@@ -17,14 +17,17 @@ To deploy this project run
   https://yoannbonge.github.io/Booki/
 ```
 
+![Logo](https://github.com/yoannBonge/Booki/blob/main/images/logo/Booki.png)
+
 
 ## Screenshots
 
-![Responsive Preview](https://github.com/yoannBonge/Booki/blob/main/images/readme/Responsive%20Design.png)
 ![Desktop Version](https://github.com/yoannBonge/Booki/blob/main/images/readme/Desktop%20Version.png)
+![Responsive Preview](https://github.com/yoannBonge/Booki/blob/main/images/readme/Responsive%20Design.png)
 
 
-![Logo](https://github.com/yoannBonge/Booki/blob/main/images/logo/Booki.png)
+
+
 
 
 ## Lessons Learned
