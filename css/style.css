@@ -119,11 +119,12 @@ footer {
 .menu li:hover {
     color: var(--main-color);
     border-top: solid 0.2rem var(--main-color);
+    padding-top: 1.2rem;
     cursor: pointer;
 }
 
-.menu a:hover {
-    color: var(--main-color);
+.menu li:hover a {
+    color: var(--main-color); 
 }
 
 .card-rating i {
@@ -171,20 +172,18 @@ h1 {
     font-size: 1.6rem;
     color: black;
     display: flex;
-    flex-shrink: 0;
 }
 
-.searchfield {
+.searchbar input {
     font-size: 1.8rem;
-    font-weight: 700;text-align: center;
-    width: 92%;
+    font-weight: 700;
+    text-align: center;
     height: 5rem;
     border-style: solid;
     border-color: var(--main-bg-color);
     border-left-style: none;
     border-right-style: none;
     padding: 0;
-    box-sizing: border-box;
 }
 
 #locsearch::placeholder {
@@ -196,9 +195,9 @@ h1 {
     font-weight: 700;
     color: white ;
     background-color: var(--main-color);
-    position: absolute;
     height: 5rem;
     padding: 0 1.6rem;
+    margin-left: -0.6rem;
     border: 0.1rem solid var(--main-color);
     border-radius: 0 1.5rem 1.5rem 0;
 }
@@ -467,9 +466,14 @@ footer li {
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
 
-
 html {
-    font-size: 45%;
+    font-size: 62%;
+}
+
+.filterbar {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 .hebergements-and-populaires {
@@ -507,6 +511,9 @@ html {
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   
+html {
+    font-size: 54%;
+}
 
 header {
     display: flex;
@@ -533,6 +540,7 @@ main {
     width: 100%;
     padding-bottom: 1.4rem;
     margin: 0;
+    border-bottom: 0.2rem solid var(--main-bg-color);
 }
 
 .menu a {
@@ -547,10 +555,6 @@ main {
 
 .infogroup {
     margin: 0 2rem;
-}
-
-.searchfield {
-    width: 25rem;
 }
 
 .searchform .search-button {
@@ -569,19 +573,21 @@ main {
     display: flex;
 }
 
+.filterbar {
+    display: flex;
+    flex-direction: column;
+}
+
 .filter-buttons {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
 
-.filterbar button {
+.filter-buttons button {
     font-size: 1.4rem;
     min-width: 1rem;
-}
-
-.filterbar {
-    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .hebergements-and-populaires {
@@ -684,7 +690,7 @@ footer nav {
 @media screen and (min-width: 320px) and (max-width: 350px) {
 
 html {
-    font-size: 56.8%;
+    font-size: 54%;
 }
 
 .menu {
@@ -693,10 +699,6 @@ html {
 
 h1 {
     font-size: 2.1rem;
-}
-
-.searchfield {
-    width: 22.4rem;
 }
 
 }
