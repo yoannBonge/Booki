@@ -22,8 +22,9 @@ To deploy this project run
 
 ## Screenshots
 
-![Desktop Version](https://github.com/yoannBonge/Booki/blob/main/images/readme/Desktop%20Version.png)
-![Responsive Preview](https://github.com/yoannBonge/Booki/blob/main/images/readme/Responsive%20Design.png)
+![Desktop Version](https://github.com/yoannBonge/Booki/blob/main/images/readme/Booki%20Desktop%20Version.png)
+![Tab Version](https://github.com/yoannBonge/Booki/blob/main/images/readme/Booki%20Tab%20Version.png)
+![Mobile Version](https://github.com/yoannBonge/Booki/blob/main/images/readme/Booki%20Mobile%20Version.png)
 
 
 
@@ -43,7 +44,6 @@ I am a french apprentice web developer in training at OpenClassrooms.
 
 - [OpenClassrooms (for learning)](https://github.com/OpenClassrooms-Student-Center)
  - [Katherine Oelsner (for the README editor)](https://github.com/octokatherine)
-  - [ui.dev/amiresponsive (for the pretty cool image illustrating the different versions of the responsive web page)](https://ui.dev/amiresponsive)
   
 
 
