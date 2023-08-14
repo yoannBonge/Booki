@@ -202,7 +202,6 @@ h1 {
     border: 0.1rem solid var(--main-color);
     border-radius: 0 1.5rem 1.5rem 0;
     padding: 0 1.6rem;
-    margin-left: -0.6rem;
 }
 
 .searchbar button:hover {
@@ -296,6 +295,11 @@ h1 {
 .hebergements {
     background-color: var(--main-bg-color);
     width: 65%;
+}
+
+.hebergements a {
+    text-decoration: none;
+    color: black;
 }
 
 .hebergements-cards {
@@ -409,6 +413,12 @@ h1 {
     margin-bottom: 3rem;
 }
 
+.activites a {
+    text-decoration: none;
+    color: black;
+    width: 25%;
+}
+
 .activites h2 {
     margin-bottom: 3rem;
 }
@@ -416,10 +426,6 @@ h1 {
 .activites-cards {
     display: flex;
     gap: 3rem;
-}
-
-.activites-cards .card {
-    width: 25%;
 }
 
 .activites-cards img {
@@ -578,7 +584,7 @@ main {
 }
 
 .searchbar input { 
-    height: max-content;   
+    height: max-content;  
     border: none;
 }
 
@@ -686,7 +692,7 @@ main {
     gap: 1.5rem;
 }
 
-.activites-cards .card {
+.activites-cards a {
     width: auto;
 }
 
